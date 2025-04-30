@@ -36,7 +36,7 @@ use JavaScript driver
 
 
 ```ruby
-class AcceptanceTest < MiniTest::Spec
+class AcceptanceTest < Minitest::Spec
   include Capybara::DSL
 
   before do
@@ -92,8 +92,8 @@ end
 # test/acceptance_test_helper.rb
 require 'minitest/metadata'
 
-class AcceptanceTest < MiniTest::Spec
-  include MiniTest::Metadata
+class AcceptanceTest < Minitest::Spec
+  include Minitest::Metadata
 end
 ```
 

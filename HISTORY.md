@@ -17,7 +17,7 @@
 
 # 0.3.0
 
-* Reorganize file structure, extract MiniTest::Metadata
+* Reorganize file structure, extract Minitest::Metadata
 
 # 0.2.0
 
